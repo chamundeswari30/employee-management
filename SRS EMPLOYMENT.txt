@@ -1,0 +1,242 @@
+
+
+## EMPLOYEE MANAGEMENT SYSTEM
+
+### 1. Introduction
+
+The Employee Management System is a software application used to manage employee information in an organization. It helps administrators add, view, update, delete, and search employee records.
+
+### 2. Purpose
+
+The purpose of this system is to provide an easy and efficient way to manage employee details and reduce manual work.
+
+### 3. Scope
+
+The system provides the following functions:
+
+- Employee login
+- Add employee
+- View employee details
+- Update employee details
+- Delete employee details
+- Search employee details
+- Manage employee records
+
+### 4. Objectives
+
+- To maintain employee information digitally.
+- To reduce paperwork.
+- To provide quick access to employee records.
+- To make employee management simple.
+- To improve accuracy and efficiency.
+
+---
+
+# 5. Functional Requirements
+
+### 5.1 Login
+
+The system should allow authorized users to log in using a username and password.
+
+### 5.2 Add Employee
+
+The administrator should be able to add new employee details such as:
+
+- Employee ID
+- Name
+- Department
+- Email
+- Phone Number
+- Salary
+
+### 5.3 View Employee
+
+The administrator should be able to view employee information.
+
+### 5.4 Update Employee
+
+The administrator should be able to modify existing employee details.
+
+### 5.5 Delete Employee
+
+The administrator should be able to remove an employee record.
+
+### 5.6 Search Employee
+
+The system should allow users to search for an employee using Employee ID or name.
+
+---
+
+# 6. Non-Functional Requirements
+
+### Performance
+
+The system should respond quickly to user requests.
+
+### Security
+
+Employee information should be accessible only to authorized users.
+
+### Usability
+
+The system should have a simple and user-friendly interface.
+
+### Reliability
+
+The system should work correctly and maintain employee records without data loss.
+
+### Maintainability
+
+The system should be easy to modify and maintain.
+
+---
+
+# 7. Hardware Requirements
+
+- Computer/Laptop
+- Minimum 4 GB RAM
+- Minimum 500 MB free storage
+- Keyboard
+- Mouse
+- Internet connection
+
+---
+
+# 8. Software Requirements
+
+- Windows/Linux/macOS
+- Microsoft Edge/Google Chrome
+- Notepad or VS Code
+- Git
+- GitHub
+- HTML
+- CSS
+- JavaScript/Python
+
+---
+
+# 9. System Features
+
+```text
+1. User Login
+2. Employee Registration
+3. Add Employee
+4. View Employee
+5. Update Employee
+6. Delete Employee
+7. Search Employee
+```
+
+---
+
+# 10. Users
+
+### Administrator
+
+The administrator can:
+
+- Login
+- Add employees
+- View employees
+- Update employees
+- Delete employees
+- Search employees
+
+### Employee
+
+The employee can view their relevant information.
+
+---
+
+# 11. Use Case
+
+```text
+                 ADMINISTRATOR
+                       |
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+     LOGIN        MANAGE EMPLOYEE    SEARCH
+                       |
+             ┌─────────┼─────────┐
+             ↓         ↓         ↓
+            ADD      UPDATE    DELETE
+             |
+             ↓
+            VIEW
+```
+
+---
+
+# 12. SDLC Model
+
+The Employee Management System follows the **Software Development Life Cycle (SDLC)**.
+
+```text
+Planning
+   ↓
+Requirement Analysis
+   ↓
+Design
+   ↓
+Development
+   ↓
+Testing
+   ↓
+Deployment
+   ↓
+Maintenance
+```
+
+### Seven phases:
+
+1. **Planning** – Plan the employee management system.
+2. **Requirement Analysis** – Identify system requirements.
+3. **Design** – Design the system and user interface.
+4. **Development** – Develop the application.
+5. **Testing** – Test all system functions.
+6. **Deployment** – Deploy the completed application.
+7. **Maintenance** – Fix errors and improve the system.
+
+---
+
+# 13. Conclusion
+
+The Employee Management System provides an efficient way to manage employee information. It reduces manual work, improves data management, and provides quick access to employee records. The system can be further improved by adding advanced features such as attendance management, payroll management, and reporting.
+
+---
+
+## Your SRS document order
+
+In Word, arrange it like this:
+
+```text
+EMPLOYEE MANAGEMENT SYSTEM
+        ↓
+1. Introduction
+        ↓
+2. Purpose
+        ↓
+3. Scope
+        ↓
+4. Objectives
+        ↓
+5. Functional Requirements
+        ↓
+6. Non-Functional Requirements
+        ↓
+7. Hardware Requirements
+        ↓
+8. Software Requirements
+        ↓
+9. System Features
+        ↓
+10. Users
+        ↓
+11. Use Case
+        ↓
+12. SDLC Model
+        ↓
+13. Conclusion
+```
+
+This is enough for a **basic college SRS for your Employee Management project**.
